@@ -1,0 +1,12 @@
+user_id,account_created_at,name,screen_name,description,profile_image_url,location_profile,profile_mentions,followers_count,following_count,listed_count,tweet_count,verified
+001,2022-01-01 00:00:00+00:00,Alice First,alicefirst,I love data science | 22y,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face0.jpg,Wonderland,No mention,10,100,0,500,FALSE
+002,2022-01-01 00:00:00+00:00,Bob Second,bobsecond,Student @ KU Leuven | 2002,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face1.jpg,Gent,No mention,10,100,0,25,FALSE
+003,2022-01-01 00:00:00+00:00,The Star, thestarleuven, I am a big celebrity,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face2.jpg,Leuven,No mention,1000000,10,25,4000,TRUE
+004,2022-01-01 00:00:00+00:00,Claire Third,clairethird, Retired,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face4.jpg,Leuven,No mention,20,10,25,50,FALSE
+005,2022-01-01 00:00:00+00:00,Doug Fourth,doughfourth, Trotse papa van 2 | echtgenoot van Sandra ,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face3.jpg,Leuven,No mention,20,20,25,100,FALSE
+006,2022-01-01 00:00:00+00:00,Eve Fifth,evefifth, High school  teacher,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face5.jpg,Leuven,No mention,20,10,25,100,FALSE
+007,2022-01-01 00:00:00+00:00,Flower Sixth,flsixth,lerares wiskunde - mama van Harold - 45 - tweets in my own name  ,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face99.jpg,,No mention,20,10,25,100,FALSE
+008,2022-01-01 00:00:00+00:00,Git Seventh,git42, Software Engineer,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face100.jpg,,No mention,20,10,25,100,FALSE
+009,2022-01-01 00:00:00+00:00,Harry Eigth,harry8, Kamerlid @ Brussel - echtgenoot van Lisa - 27 -  papa van  Karl en Karla,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face6.jpg,Oostende,No mention,20,10,25,100,FALSE
+010,2022-01-01 00:00:00+00:00,Isabelle Ninth,isab9,Tweets in my own name,,Bouillon,No mention,20,10,25,100,FALSE
+011,2022-01-01 00:00:00+00:00,Jojo Tenth,jojoten,,https://raw.githubusercontent.com/jtonglet/Demographics-PWS/main/img/face23.jpg,Leuven,No mention,20,10,25,100,FALSE

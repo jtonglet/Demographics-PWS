@@ -1,0 +1,21 @@
+tweet_id,user_id,location_id,created_at,language,tweet_mentions,reply_settings,possibly_sensitive,like_count,retweet_count,quote_count,reply_count,source,text,country,place_type,location_geo,longitude,latitude
+001,001,001,2022-01-02 08:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for iPhone,Vandaag is de eerste dag van mijn examens! Success allemaal!!,Belgique,city,Gand,51.98,3.714
+002,001,002,2022-01-02 10:00:00+00:00,nl,No mention,everyone,False,10,1,0,0,Twitter for iPhone,Dat was zo een moeilijk examen pff. Hello augustus,Belgique,city,Louvain,50.88,4.7
+003,001,002,2022-01-02 22:00:00+00:00,nl,thestartleuven,everyone,False,2,1,0,0,Twitter for iPhone,Ik ga vanavond naar het concert van @thestarleuven kijken!,Belgique,city,Louvain,50.88,4.7
+004,002,002,2022-01-02 22:30:00+00:00,nl,thestartleuven,everyone,False,2,1,0,0,Twitter Web Client,Wat een bangelijk concert! Beste manier om te chillen na de examens! Go go @thestarleuven,Belgique,city,Louvain,50.88,4.7
+005,004,003,2022-01-02 22:30:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for Android,De koffiekoeken in Antwerpen zijn de beste!,Belgique,city,Anvers,51.2605565,4.35819025
+006,002,003,2022-01-03 04:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for Android,Vandaag bezoekje aan de Zoo van Antwerpen!,Belgique,city,Anvers,51.2605565,4.35819025
+007,001,003,2022-01-03 04:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,damn it het gaat regenen,Belgique,city,Anvers,51.2605565,4.35819025
+008,002,003,2022-01-03 04:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for Android,skating is mijn nieuwe passie,Belgique,city,Anvers,51.2605565,4.35819025
+009,001,001,2022-01-03 04:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for Android,Op bezoek in Gent!,Belgique,city,Gand,51.98,3.714
+010,004,004,2022-01-03 04:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for iPhone,Ik heb zin in een bok,Belgique,city,Genk,50.966982099999996,5.4898922500000005
+011,005,003,2022-01-03 04:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for iPhone,In het jaar 2030 zullen we de eerste stappen zetten om de wereld te veranderen,Belgique,city,Anvers,51.2605565,4.35819025
+012,005,003,2022-01-03 08:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter for iPhone,ik hou van de natuur en de rust,Belgique,city,Anvers,51.2605565,4.35819025
+013,006,005,2022-01-03 10:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,ik hou van de natuur en de rust,Belgique,city,Alost,50.947094199999995,4.07338545
+014,007,005,2022-01-03 10:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,nog een paar weken voor krokusvakantie,Belgique,city,Alost,50.947094199999995,4.07338545
+015,008,005,2022-01-03 10:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,Sneeuw!!!,Belgique,city,Alost,50.947094199999995,4.07338545
+016,009,002,2022-01-03 12:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,Vandaag barbecue met de collegas.,Belgique,city,Louvain,50.88,4.7
+017,009,002,2022-01-03 14:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,De barbecue was echt gezellig. Wij hadden ook de kans om in de meer te zwemmen,Belgique,city,Louvain,50.88,4.7
+018,010,002,2022-01-03 14:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,Wat is de beste winkel om currywurst te kopen?,Belgique,city,Louvain,50.88,4.7
+019,011,004,2022-01-03 12:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,25 graden vaandag. Moet ik vanavond een barbecue organiseren?,Belgique,city,Genk,50.966982099999996,5.4898922500000005
+020,011,002,2022-01-03 20:00:00+00:00,nl,No mention,everyone,False,2,1,0,0,Twitter Web Client,Merci voor de feedback! De barbecue was lekker!,Belgique,city,Genk,50.966982099999996,5.4898922500000005
