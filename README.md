@@ -52,7 +52,9 @@ user = pd.read_csv('data/user_df.csv')
 tweet = pd.read_csv('data/tweet_df.csv')
 #Keep active users only
 active, mentioned = active_mentioned_users_split(user,tweet)
-#Prepare the feature matrix
+#Prepare the feature matrix. Available features : bow, metadata, celebrity, topic
+#Topic : available if the dataset contains more than 100 users
+#Celebrity : requires  a bearer token to collect the followers ids
 feature_matrix = create_feature_matrix(tweet,active,
                                        mentioned_user_df=mentioned, 
                                        features=['bow','metadata']) 
@@ -68,7 +70,6 @@ gender_gen.fit(L_gender)
 weak_labels = gender_gen.predict(L_gender)
 
 #Discriminative Model 
-#Available features : bow, metadata, celebrity, topic
 feature_matrix['weak_label'] = weak_labels
 gender_labeled = feature_matrix[feature_matrix.weak_label!=-1]
 #Create a Discriminative Model, by default a logistic regression classifier
