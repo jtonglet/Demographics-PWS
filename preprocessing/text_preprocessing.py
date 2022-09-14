@@ -26,7 +26,7 @@ class TextPreprocessor:
         self.sw = []
         for l in stopwords_languages:
             self.sw += stopwords.words(l)
-        #Keywords (add keywords for age and location) (find efficient way to code it)
+        #Keywords
         gender = pd.read_csv(gender_keywords_path).fillna(' ')
         age = pd.read_csv(age_keywords_path).fillna(' ')
         location = pd.read_csv(location_keywords_path).fillna(' ')
