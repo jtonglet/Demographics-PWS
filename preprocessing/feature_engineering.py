@@ -11,7 +11,6 @@ from tqdm import tqdm
 import os
 
 
-
 def retrieve_url_website(row, timeout = 1): 
     """
     Retrieve the correct url link from a shorten Twitter version.
@@ -31,7 +30,6 @@ def retrieve_url_website(row, timeout = 1):
             pass
     url_str= ' '.join(url_list)
     return url_str
-
 
 
 def word_count_features(corpus_train,
@@ -60,7 +58,6 @@ def word_count_features(corpus_train,
     return train_output, test_output
 
 
-
 def topic_features(corpus_train,
                     corpus_test=None,
                     min_count_top2vec=50):
@@ -80,7 +77,6 @@ def topic_features(corpus_train,
     #Check that the corpus is sufficiently large
         print('Insuficient number of users to compute topic features with Top2Vec')
         return train_topic, test_topic
-    #Requires sufficiently large dataset
     model = Top2Vec(corpus_train,  
                 workers = 8,
                 speed = 'learn',
@@ -105,7 +101,6 @@ def topic_features(corpus_train,
                 scores_dict[u] = 0
         topic_feature = 'Topic ' + str(i)  
         train_topic[topic_feature] = [scores_dict[u] for u in range(len(corpus_train))] 
-    #still need to see how to handle test/train here
     if corpus_test is not None:
         for i in topic_nums:  #For each topic create a feature
             _ , document_ids = model.search_documents_by_topic(topic_num=i, 
@@ -169,7 +164,7 @@ def celebrity_follower_feature(train_df,
                                         else False, axis=1) 
         verified = verified[be_mask]
 
-    #Remove verified with too many or too few followers
+    #Remove verified users with too many or too few followers
     celebrities = verified[(verified["followers_count"] >= min_followers)  & (verified["followers_count"]<= max_followers)].reset_index(drop=True)
     #There is no pre-available file with the followers data, need to collect it
     #Load the followers data
@@ -265,7 +260,6 @@ def aggregate_tweet(tweet_df):
                                                                                             'Instagram', 'Foursquare','Twitter Web Client', 
                                                                                             'Twitter for iPad'] else 'Other')
     return aggregated_tweet_df
-
 
 
 def create_feature_matrix(tweet_df, train_df, test_df=pd.DataFrame(), mentioned_user_df=None, bearer_token = None,
