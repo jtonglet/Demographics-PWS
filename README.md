@@ -89,8 +89,8 @@ final_labels = gender_gen.predict(L_gender_extended)
 
 For privacy reasons, the Twitter data collected for the  paper's experiments cannot be shared online. We provide instead a small toy dataset with fictional accounts to test the functionalities of 3-step PWS. 
 
-The following code snippet allows you to collect your own dataset. For this you will need your own bearer token provided by the Twitter Academic Research API. 
-You need to define with valid timestamps the periods for which you want to retrieve the number of tweets defined by *tweet_per_period*. The periods are defined with the start_list and end_list.  The keyword parameter accepts any Twitter Full-Archive Search query.
+The following code snippet allows you to collect your own dataset. For this you will need your own bearer token provided by [Twitter](https://developer.twitter.com/en/products/twitter-api/academic-research). 
+The number of tweet to retrieve per time period is defined by *tweet_per_period*. The periods are delimited by the start_list and end_list parameters, they need to be valid timestamps.  The keyword parameter accepts any Twitter Full-Archive Search query.
 
 ```python
 
