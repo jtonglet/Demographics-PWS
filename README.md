@@ -141,12 +141,15 @@ def some_regex_lf(row):
   return TARGET if re.search(r"insert here the regular expression", row['description']) else ABSTAIN
 ```
 
-## Citation
 
-Please cite our paper if you use this package in your projects : 
 
 <!-- Draft of citation 
 ```
+
+## Citation
+
+Please cite our paper if you use this code in your projects : 
+
 @mastersthesis{tonglet2022TwitterPWS,
   author  = "Tonglet, Jonathan and Jehoul, Astrid and Reusens, Manon and Reusens, Michael and Baesens, Bart",
   title   = "Predicting the Demographics of Twitter users with Programmatic Weak Supervision",
