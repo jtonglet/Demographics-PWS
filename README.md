@@ -3,7 +3,9 @@
 ## Introduction 
 
 This repository contains the code implementation of the paper "Predicting the Demographics of Twitter Users with Programmatic Weak Supervision".
-The paper proposes 3-step Programmatic Weak Supervision (3-step PWS), a new demographic inference model to predict the gender, age category, and location of Twitter users without human labeling effort. We conducted experiments on the Belgian (Flemish) Twitter population and reached an accuracy of 91.6% for gender (Male-Female), 55.5% for age category, and 73.8% for location at the Belgian province level, respectively.
+The paper proposes 3-step Programmatic Weak Supervision (3-step PWS), a new demographic inference model to predict the gender, age category, and location of Twitter users without human labeling effort.  
+
+We conducted experiments on the Belgian (Flemish) Twitter population and reached an accuracy of 91.6% for gender (Male-Female), 55.5% for age category, and 73.8% for location at the Belgian province level, respectively.
 
 <p align="center">
   <img width="80%" src="img/pipeline.PNG" alt="header" />
