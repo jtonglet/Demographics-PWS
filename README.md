@@ -144,10 +144,6 @@ def some_regex_lf(row):
 ```
 
 
-
-<!-- Draft of citation 
-
-
 ## Citation
 
 Please cite our paper if you use this code in your projects : 
