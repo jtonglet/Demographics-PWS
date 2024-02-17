@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This repository contains the code implementation of the paper "Predicting the Demographics of Twitter Users with Programmatic Weak Supervision".
+This repository contains the code implementation of the paper "Predicting the Demographics of Twitter Users with Programmatic Weak Supervision",published in Transactions in Operations Research (TOP).
 The paper proposes 3-step Programmatic Weak Supervision (3-step PWS), a new demographic inference model to predict the gender, age category, and location of Twitter users without human labeling effort.  
 
 We conducted experiments on the Belgian (Flemish) Twitter population and reached an accuracy of 91.6% for gender (Male-Female), 55.5% for age category, and 73.8% for location at the Belgian province level, respectively.
@@ -146,20 +146,25 @@ def some_regex_lf(row):
 
 
 <!-- Draft of citation 
-```
+
 
 ## Citation
 
 Please cite our paper if you use this code in your projects : 
 
-@mastersthesis{tonglet2022TwitterPWS,
-  author  = "Tonglet, Jonathan and Jehoul, Astrid and Reusens, Manon and Reusens, Michael and Baesens, Bart",
-  title   = "Predicting the Demographics of Twitter users with Programmatic Weak Supervision",
-  school  = "KU Leuven",
-  year    = "2022",
+```
+@article{tonglet2024predicting,
+  title={Predicting the demographics of Twitter users with programmatic weak supervision},
+  author={Tonglet, Jonathan and Jehoul, Astrid and Reusens, Manon and Reusens, Michael and Baesens, Bart},
+  journal={TOP},
+  pages={1--37},
+  year={2024},
+  publisher={Springer},
+  doi={https://doi.org/10.1007/s11750-024-00666-y}
 }
 ```
--->
+
+
 ## Contact
 Jonathan Tonglet jonathan.tonglet@gmail.com ;
 Astrid Jehoul    as.jehoul@gmail.com 
