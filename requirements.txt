@@ -4,7 +4,7 @@ numpy==1.22.4
 pandas==1.4.3
 Pillow>=10.2.0
 requests==2.32.0
-scikit-learn==1.1.2
+scikit-learn==1.5.0
 scipy==1.10.0
 snorkel==0.9.9
 top2vec==1.0.26
